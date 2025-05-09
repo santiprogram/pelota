@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #111;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  background: linear-gradient(180deg, #222, #000);
+}
+
+#instructions {
+  margin: 10px;
+}
+
+#restartButton {
+  display: none;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#restartButton:hover {
+  background: #218838;
+}
