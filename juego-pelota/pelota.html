@@ -4,19 +4,20 @@
   <meta charset="UTF-8">
   <title>Juego PoseNet Pelotas</title>
   <link rel="stylesheet" href="css/estilos.css">
-
-  <!-- p5.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
-  <!-- ml5.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ml5/0.12.2/ml5.min.js"></script>
 </head>
 <body>
   <h1>¡Atrapa las pelotas!</h1>
   <p id="instructions">Mueve tu nariz frente a la cámara para controlar la barra</p>
 
-  <button id="restartButton" onclick="restartGame()">Reiniciar juego</button>
+  <!-- p5.js (primero) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
 
-  <!-- Tu script principal -->
+  <!-- ml5.js (después) -->
+ <script src="https://unpkg.com/ml5@0.6.0/dist/ml5.min.js"></script>
+
+
+
+  <!-- tu script final (al final) -->
   <script src="pelota.js"></script>
 </body>
 </html>
