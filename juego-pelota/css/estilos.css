@@ -1,44 +1,44 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom, #111, #222);
-  color: white;
-  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+#instructions {
+  margin: 10px;
+  font-size: 1.2rem;
 }
 
 canvas {
   display: block;
-  margin: 20px auto;
-  border: 4px solid #0f0;
+  margin: 0 auto;
+  border: 4px solid #ffffff22;
   border-radius: 12px;
-  box-shadow: 0 0 20px #0f0;
+  box-shadow: 0 0 20px #000000aa;
 }
 
-h1 {
-  font-size: 2em;
-  margin-top: 10px;
-  color: #0f0;
-  text-shadow: 0 0 10px #0f0;
-}
-
-#instructions {
-  margin: 5px;
-  font-size: 1em;
-}
-
-#restartButton {
-  background: #0f0;
-  color: #000;
+#startButton, #restartButton {
   padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(45deg, #28a745, #218838);
   border: none;
   border-radius: 8px;
-  font-size: 1em;
   cursor: pointer;
-  margin-top: 10px;
-  box-shadow: 0 0 10px #0f0;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
-#restartButton:hover {
-  background: #1f1;
+#startButton:hover, #restartButton:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #28a745aa;
 }
